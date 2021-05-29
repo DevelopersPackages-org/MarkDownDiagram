@@ -116,6 +116,9 @@ div.mdg .bg_black {
 	background-color:#000 ;
 }
 /* line style */
+div.mdg .l_w1 {
+	stroke-width:1px ;
+}
 div.mdg .l_w2 {
 	stroke-width:2px ;
 }
@@ -128,8 +131,17 @@ div.mdg .l_w4 {
 div.mdg .l_w5 {
 	stroke-width:5px ;
 }
+div.mdg .l_d5 {
+	stroke-dasharray:5px ;
+}
 div.mdg .l_d10 {
 	stroke-dasharray:10px ;
+}
+div.mdg .l_oln4 {
+	border-bottom: 2px double black;
+}
+div.mdg .l_wd4 {
+	transform:translate(0px, -4px);
 }
 /* border radius */
 div.mdg .bd_r6 {
@@ -148,6 +160,7 @@ div.mdg .circle4 {
 	padding-top:1em ;
 	border-radius:2em ;
 }
+
 /* alignment */
 div.mdg div.TC,table.TC {
 	text-align:center ;

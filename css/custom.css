@@ -5,4 +5,40 @@ div.mdg .custom1 {
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 	transform:rotate(5deg) ;
 	border:4px dotted red ;
+}/*custom css sample*/
+div.mdg .custom1 {
+	font-size:1.5em ;
+	border-radius: 0.5em ;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	transform:rotate(5deg) ;
+	border:4px dotted red ;
+}
+
+div.mdg .box.none{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: none;
+	background-color: transparent;
+	line-height:1.5em ;
+	padding:0;
+	box-sizing:border-box;
+	cursor:move;
+}
+
+div.mdg .box.nbd {
+	position:absolute ;
+	border:0.025px solid black ;
+	background-color:white;
+	line-height:1.5em ;
+	padding:0.25em;
+	box-sizing:border-box;
+	cursor:move;
+}
+div.mdg .box.nobd {
+	border:none;
+}
+
+div.mdg .box.nobg {
+	background-color: transparent;
 }
